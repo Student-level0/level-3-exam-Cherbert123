@@ -27,9 +27,10 @@ public class Level3CodingExam {
 		votes.add("Pope francis");
 		votes.add("Pope Francis");
 		votes.add("Edward Snowden");
-
+		
 		assertEquals("pope francis", new VoteProcessor().calculateElectionWinner(votes));
 	}
+	
 
 	/** If neither candidate has more votes than the other, report a tie by returning the String "TIE". **/
 	@Test
